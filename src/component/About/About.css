@@ -1,0 +1,37 @@
+.about-point{
+    text-align: left;
+    padding: 20px;
+    list-style: none;
+    font-weight: 500;
+    font-size: 20px;
+    padding-top: 20px;
+    background-color:rgb(178, 238, 178);
+
+}
+.about-school{
+    background-color: lightseagreen;
+    margin-left: -20px;
+    margin-right: -20px;
+    padding-left: 20px;
+    padding: 10px;
+}
+.space{
+    background-color: rgb(178, 238, 178);
+    text-align: left;
+    padding:20px;
+}
+.accordion{
+    background-color: rgb(178, 238, 178);
+}
+.important-link{
+    background-color: lightsteelblue;
+    padding: 20px;
+    text-align: left;
+
+}
+.important-link> a{
+    text-align: left;
+    display: block;
+    text-decoration: none;
+
+}

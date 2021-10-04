@@ -1,0 +1,28 @@
+.bannar{
+    height: 200px;
+    filter: blur(5px);
+    -webkit-filter: blur(4px);
+}
+.schoolName{
+    position: absolute;
+    top:10px;
+    left:50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.nav-style{
+    background-color: #e6c3b8;
+}
+.btn-style{
+    width: 100px;
+    margin: 10px 0px 0px 5px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    background-image: linear-gradient(to left,rgb(199, 117, 117),rgb(183, 223, 233));   
+    color:#444;
+    font-weight: 500;
+}
+.btn-style:hover{
+    background-image: linear-gradient(to right,rgb(199, 117, 117),rgb(183, 223, 233));   
+}
