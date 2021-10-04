@@ -1,4 +1,4 @@
-# Cumilla Ideal School
+# Cumilla Virtual School
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -17,7 +17,7 @@ This Education web site for Cumilla Ideal School.
 project live link:https://lucid-heisenberg-1be5ec.netlify.app/
 
 ## About me:
-# Md. Shariful Islam
+### Md. Shariful Islam
 full stack webdeveloper
 feel free to knock me:sharifok1@gmail.com
 
