@@ -5,7 +5,7 @@
     font-weight: 500;
     font-size: 20px;
     padding-top: 20px;
-    background-color:rgb(178, 238, 178);
+    background-color:rgb(198, 221, 198);
 
 }
 .about-school{
@@ -16,7 +16,7 @@
     padding: 10px;
 }
 .space{
-    background-color: rgb(178, 238, 178);
+    background-color: rgb(166, 197, 166);
     text-align: left;
     padding:20px;
 }
@@ -24,9 +24,10 @@
     background-color: rgb(178, 238, 178);
 }
 .important-link{
-    background-color: lightsteelblue;
+    background-color: rgb(96, 103, 112);
     padding: 20px;
     text-align: left;
+    padding-bottom: 50px;
 
 }
 .important-link> a{

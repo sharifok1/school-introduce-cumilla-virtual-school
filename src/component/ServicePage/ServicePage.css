@@ -1,0 +1,22 @@
+.service-photo{
+    height:150px;
+    width: 200px;
+}
+.card-styles{
+    padding: 10px;
+    max-height:200px;
+    background-color: #cfa5a5;
+}
+.card-alignment{
+    display:flex; ;
+}
+@media only screen and (max-width:668px) {
+    .card-alignment{
+        display: block;
+    }  
+    .card{
+        padding: 10px;
+        max-height:350px;
+        
+    }
+}

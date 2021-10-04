@@ -1,6 +1,9 @@
+import Button from '@restart/ui/esm/Button';
 import React, { useEffect, useState } from 'react';
 import { Row } from 'react-bootstrap';
-import HomePageService from '../HomePagesService/HomePageService';
+import { Link } from 'react-router-dom';
+import Hom4Service from '../Hom4service/Hom4Service';
+import './HomePage.css'
 
 const HomePage = () => {
     const [serviceData,setServiceData]=useState([]);
@@ -9,23 +12,20 @@ const HomePage = () => {
         .then(res =>res.json())
         .then(data =>setServiceData(data))
     },[]);
-    
     return (
-        <div>
-            <Row xs={1} md={2} className="g-4">
+        <div className="mb-4 homePage">
+            
+            <Row xs={2} md={3} lg={4} className="g-4">
             {
-                serviceData.map(data =>
-                        <HomePageService
-                        key = {data.id}
-                        serviceData={data}
-                        />
-               )
-                
+                serviceData.slice(0,4).map(data =>
+                      <Hom4Service
+                      key ={data.id}
+                      servData={data}
+                      />
+                )    
             }
             </Row>
-            <div>
-                <h4>This is a footer</h4>
-            </div>
+           <Link to ="/Services"><Button className="see-more">See more</Button></Link>
         </div>
     );
 };

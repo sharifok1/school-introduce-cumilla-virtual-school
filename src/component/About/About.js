@@ -4,7 +4,7 @@ import './About.css'
 
 const About = () => {
     return (
-        <div>
+        <div className="mb-4">
             <div className="about-point">
         <h2>Our Vision</h2>
         <li> {'>'} To enable the students to learn and lead in academic frontier.</li>
@@ -16,7 +16,7 @@ const About = () => {
         <li> {'>'} To develop committed, high performing teaching faculties.</li>
         </div>
         <div className="space">
-            <h2 className="about-school">Cumilla Ideal School</h2>
+            <h2 className="about-school">Cumilla Virtual  School</h2>
             <h4>ADVISER'S MESSAGE</h4>
             <Accordion>
   <Accordion.Item eventKey="1"className="accordion">
