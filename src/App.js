@@ -1,7 +1,7 @@
 
 import './App.css';
 import Header from './component/Header/Header';
-import { BrowserRouter ,Switch ,Route} from 'react-router-dom';
+import { BrowserRouter as Router,Switch ,Route} from 'react-router-dom';
 import NoteFound404 from './component/NotFond404/NoteFound404';
 import HomePage from './component/HomePage/HomePage';
 import Services from './component/Services/Services';
@@ -11,7 +11,7 @@ import Teachers from './component/Teachers/Teachers';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <Router>
       <Header></Header>
         <Switch>
           <Route exact path ='/'>
@@ -30,7 +30,7 @@ function App() {
             <NoteFound404></NoteFound404>
           </Route>
         </Switch>
-      </BrowserRouter>
+      </Router>
       
     </div>
   );

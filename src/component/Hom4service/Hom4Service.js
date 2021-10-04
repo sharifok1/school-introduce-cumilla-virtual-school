@@ -7,6 +7,8 @@ const Hom4Service = (props) => {
     return (
         <div>
             <Col>
+                {/* home page single 4 card//------------
+                --------------------------------------------- */}
                 <Card className="fourCards">
                     <Card.Img className="card-image" variant="top" src={img}/>
                     <Card.Body>

@@ -6,6 +6,8 @@ const About = () => {
     return (
         <div className="mb-4">
             <div className="about-point">
+                {/* avout page description------------
+                ----------------------------------------- */}
         <h2>Our Vision</h2>
         <li> {'>'} To enable the students to learn and lead in academic frontier.</li>
         <li> {'>'} To inculcate the seedlings of humanitarian values and ideal citizens.</li>

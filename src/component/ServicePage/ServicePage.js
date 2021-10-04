@@ -8,6 +8,8 @@ const ServicePage = (props) => {
     return (
         <div>
          <div>
+           {/* display service one by one---------//
+           ------------------------------------------- */}
         <Col>
         <Card className="card-styles">
           <div className="card-alignment">

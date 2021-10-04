@@ -9,7 +9,7 @@
 
 }
 .about-school{
-    background-color: lightseagreen;
+    background-color: rgb(80, 165, 161);
     margin-left: -20px;
     margin-right: -20px;
     padding-left: 20px;
@@ -23,6 +23,8 @@
 .accordion{
     background-color: rgb(178, 238, 178);
 }
+/* -------------------------------------link//
+---------------------------------------------------------- */
 .important-link{
     background-color: rgb(96, 103, 112);
     padding: 20px;
@@ -34,5 +36,6 @@
     text-align: left;
     display: block;
     text-decoration: none;
+    color:white;
 
 }
