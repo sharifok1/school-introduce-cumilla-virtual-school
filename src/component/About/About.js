@@ -6,7 +6,7 @@ const About = () => {
     return (
         <div className="mb-4">
             <div className="about-point">
-                {/* avout page description------------
+                {/* about page description------------
                 ----------------------------------------- */}
         <h2>Our Vision</h2>
         <li> {'>'} To enable the students to learn and lead in academic frontier.</li>
