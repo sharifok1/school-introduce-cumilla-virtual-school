@@ -1,15 +1,19 @@
 import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import img from "./bannar.jpg"
+import img from "./bannar.jpg";
+import logo from "../../favicon.jpg"
 import './Header.css';
-
 const Header = () => {
     return (
         <div>
             <div >
                 <img className="bannar" src={img} alt="" />
                 <h2 className="schoolName">Cumilla Virtual School</h2>
+                <h4 className="slogan">In the hope of winning the competition world</h4>
+                <img className="logo-img" src={logo} alt="" />
+                <h5> <marquee direction="left">
+                    The online admission process for Class VI,VII,VII (session 2021–2022) will begin on January 1. “The online admission activities for class XI (session 2021-2022) will start from January 1 and continue until February 30,” said a notification from the Ministry of Education.</marquee> </h5>
             </div>
             <Navbar className="nav-style" expand="lg">
             <Container fluid>

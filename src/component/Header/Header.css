@@ -7,7 +7,21 @@
 .schoolName{
     position: absolute;
     top:10px;
-    left:50px;
+    left:120px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.logo-img{
+    position: absolute;
+    top:10px;
+    left:10px;
+    height:100px;
+    width: 100px; 
+}
+.slogan{
+    color:hsl(268, 97%, 25%);
+    position: absolute;
+    top:45px;
+    left:120px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .nav-style{
@@ -23,6 +37,7 @@
     background-image: linear-gradient(to left,rgb(199, 117, 117),rgb(183, 223, 233));   
     color:#444;
     font-weight: 500;
+    border:1px solid #111;
 }
 .btn-style:hover{
     background-image: linear-gradient(to right,rgb(199, 117, 117),rgb(183, 223, 233));   
