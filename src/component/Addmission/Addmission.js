@@ -9,7 +9,7 @@ const Addmission = () => {
     const { register, handleSubmit, reset} = useForm();
     const onSubmit = data =>{
       console.log(data)
-    const url = 'http://localhost:3010/studentsData'
+    const url = 'https://still-brook-37569.herokuapp.com/studentsData'
     axios.post(url, data)
     .then(res=>{
         if(res.data.insertedId){
