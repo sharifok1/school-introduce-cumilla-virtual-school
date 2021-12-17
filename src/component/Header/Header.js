@@ -33,6 +33,7 @@ const Header = () => {
                     <Link to = "/Services"><button className="btn-style">Services</button></Link>
                     <Link to = "/Teachers"><button className="btn-style">Teachers</button></Link>
                     <Link to = "/About"><button className="btn-style">About</button></Link>
+                    <Link to = "/addmission"><button className="btn-style">Addmission</button></Link>
                 </Nav>
                 </Navbar.Collapse>
             </Container>

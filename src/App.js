@@ -7,6 +7,7 @@ import HomePage from './component/HomePage/HomePage';
 import Services from './component/Services/Services';
 import About from './component/About/About';
 import Teachers from './component/Teachers/Teachers';
+import Addmission from './component/Addmission/Addmission';
 
 function App() {
   return (
@@ -25,6 +26,9 @@ function App() {
           </Route>
           <Route path='/About'>
             <About></About>
+          </Route>
+          <Route path='/addmission'>
+            <Addmission></Addmission>
           </Route>
           <Route path = '*'>
             <NoteFound404></NoteFound404>
