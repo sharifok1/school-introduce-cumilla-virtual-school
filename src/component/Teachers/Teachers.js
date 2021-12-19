@@ -9,7 +9,7 @@ import './Teachers.css'
 const Teachers = () => {
     const [teachers ,setTeacher]=useState([]);
     useEffect(()=>{
-        fetch('/teacherData.JSON')
+        fetch('https://still-brook-37569.herokuapp.com/teachers')
         .then(res=>res.json())
         .then(data =>setTeacher(data))
         
