@@ -7,7 +7,7 @@ const EightStudent = ({student}) => {
         <div>
             <Col>
               <Card>
-              <Card.Img variant="top" src={img} />
+              <Card.Img style={{width:'100%',height:'11em'}} variant="top" src={img} />
                 <Card.Body>
                   <Card.Title>Name: {name}</Card.Title>
                  <Card.Text>
