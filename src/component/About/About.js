@@ -1,10 +1,21 @@
 import React from 'react';
-import { Accordion } from 'react-bootstrap';
+import { Accordion, Col, Row } from 'react-bootstrap';
 import './About.css'
 
 const About = () => {
     return (
         <div className="mb-4">
+
+            <Row xs={1} md={2} >
+                <Col>
+                    <img style={{height:'70%',width:'90%'}} className='img-fluid mt-4' src="https://goanchurches.info/wp-content/uploads/2016/01/goanchurches_St.-Mary-of-the-Angels-Convent-High-School-FSMA-Chinchinim_1.jpg" alt="" />
+                    <h2>New Academic Building</h2>
+                </Col>
+                <Col>
+                    <img style={{height:'70%',width:'90%'}} className='img-fluid mt-4' src="https://resize.indiatvnews.com/en/resize/newbucket/715_-/2021/03/cbse-1614678890.jpg" alt="" />
+                    <h2>Multimedia Class Room</h2>
+                </Col>
+            </Row>
             <div className="about-point">
                 {/* about page description------------
                 ----------------------------------------- */}
