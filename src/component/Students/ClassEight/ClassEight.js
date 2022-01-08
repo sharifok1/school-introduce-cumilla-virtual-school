@@ -5,7 +5,7 @@ import EightStudent from './EightStudent/EightStudent';
 const ClassEight = () => {
     const [students, setStudents]=useState([])
     useEffect(()=>{
-        const url='http://localhost:3010/studentsData'
+        const url='https://still-brook-37569.herokuapp.com/studentsData'
         fetch(url)
         .then(res=>res.json())
         .then(data =>setStudents(data))
