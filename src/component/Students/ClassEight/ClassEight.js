@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Row } from 'react-bootstrap';
+import { Container, Row } from 'react-bootstrap';
 import EightStudent from './EightStudent/EightStudent';
 
 const ClassEight = () => {
@@ -12,8 +12,10 @@ const ClassEight = () => {
     },[])
     const eight = students.filter(classEight => classEight.class === 'eight')
     return (
-        <div>
-              <Row xs={1} md={2} className="g-4">
+        <div className='mt-5 mb-5 pb-4'>
+            <h1 className='mb-4'>Student of class Eight, Batch 2022</h1>
+            <Container>
+              <Row xs={1} md={3} lg={4} className="g-4">
              {
                 eight.map(student=> <EightStudent
                 key={student._id}
@@ -21,6 +23,7 @@ const ClassEight = () => {
                     ></EightStudent>)    
                 }
                 </Row>
+                </Container>
         </div>
     );
 };

@@ -2,16 +2,19 @@ import React from 'react';
 import { Card, Col } from 'react-bootstrap';
 
 const EightStudent = ({student}) => {
+    const {img, name, fatherName,motherName, birthDate}=student
     return (
         <div>
             <Col>
               <Card>
-                <Card.Img variant="top" src="holder.js/100px160" />
+              <Card.Img variant="top" src={img} />
                 <Card.Body>
-                  <Card.Title>Card title</Card.Title>
+                  <Card.Title>Name: {name}</Card.Title>
                  <Card.Text>
-                 This is a longer card with supporting text below as a natural
-                 lead-in to additional content. This content is a little bit longer.
+                  <p className=''>Father: {fatherName} <br />
+                    Mother: {motherName} <br />
+                    Date of Birth: {birthDate}
+                  </p>
                  </Card.Text>
                  </Card.Body>
             </Card>
