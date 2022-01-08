@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Nav, Navbar } from 'react-bootstrap';
+import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import img from "./bannar.jpg";
 import logo from "../../favicon.jpg"
@@ -29,11 +29,18 @@ const Header = () => {
                 >
                      {/*------router button------------------------------
                     ---------------------------------------------------// */}
-                    <Link to = "/"><button className="btn-style">Home</button></Link>
+                    <Link to = "/"><button className="btn-style ">Home</button></Link>
                     <Link to = "/Services"><button className="btn-style">Services</button></Link>
                     <Link to = "/Teachers"><button className="btn-style">Teachers</button></Link>
                     <Link to = "/About"><button className="btn-style">About</button></Link>
-                    <Link to = "/addmission"><button className="btn-style">Addmission</button></Link>
+                    <Link to = "/addmission"><button className="btn-style me-2">Addmission</button></Link>
+                    <NavDropdown className="btn-style mx-auto dropdown" title="Students">
+                        <Link to = "/ClassSix"><button className="btn-style">Class Six</button></Link>
+                        <Link to = "/classSeven"><button className="btn-style">Class Seven</button></Link>
+                        <Link to = "/classEight"><button className="btn-style">Class Eight</button></Link>
+                        <Link to = "/classNine"><button className="btn-style">Class Nine</button></Link>
+                        {/* <NavDropdown.Divider /> */}
+                    </NavDropdown>
                 </Nav>
                 </Navbar.Collapse>
             </Container>

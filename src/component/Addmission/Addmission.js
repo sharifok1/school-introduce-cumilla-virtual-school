@@ -48,6 +48,7 @@ const Addmission = () => {
         <input className='studentForm' {...register("address")} placeholder='address' required />
         <input className='studentForm' {...register("postalCode")} placeholder='postal code' required />
         <input className='studentForm' {...register("religion")} placeholder='religion' required />
+        <input className='studentForm' {...register("img")} placeholder='Past photo link' required />
         <select className='studentForm' {...register("disability")} placeholder='Physical disability'>
           <option  value="Physical disability">Physical disability - 'Yes'</option>
           <option className='formOption' value="No">Physical disability - 'No'</option>
